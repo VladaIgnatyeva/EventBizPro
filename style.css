@@ -601,7 +601,7 @@ input:focus{
     position: absolute;
     background: rgba(24, 24, 24, 0.9);
     border: 2px solid rgba(24, 24, 24, 0.8);
-    padding: 10px 30px 40px;
+    /*padding: 10px 30px 40px;*/
     line-height: 1.4em;
     opacity: 0;
     transform: rotateX(-20deg);
@@ -626,6 +626,7 @@ input:focus{
 }
 
 .wrapper-gallery{
+    width: 90%;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -793,6 +794,8 @@ footer a:hover{
         grid-column-start: 3;
     }
 
+
+    
     
 }
 
@@ -815,6 +818,8 @@ footer a:hover{
         width: 220px;
         height: 40px;  
     }
+
+    
 }
 
 @media screen and (max-width: 915px){
@@ -910,6 +915,10 @@ footer a:hover{
 
     .btn-wrapp{
         padding-top: 10px;
+    }
+
+    .footer-box1{
+        flex-direction: column;
     }
 }
 
